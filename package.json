@@ -2,7 +2,8 @@
   "name": "hexrgba",
   "version": "1.0.0",
   "description": "Convert 3, 4, 6, and 8 digit hex strings to rgba",
-  "main": "dist/index.esm.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
   "scripts": {
     "rollup": "rollup -c ./rollup.config.js",
     "test": "tape test/test.js",
